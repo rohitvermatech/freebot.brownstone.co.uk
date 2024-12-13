@@ -1,0 +1,816 @@
+{
+    "ANONYMOUS": {
+        "text": "No problem. Lovely to meet you. What's happening with you and how can we help?",
+        "buttons": [
+            {
+                "payload": "DISCRIMINATION",
+                "title": "Discrimination"
+            },
+            {
+                "payload": "INTERSECTIONALITY",
+                "title": "Intersectionality (coming soon)"
+            },
+            {
+                "payload": "NEURODIVERSITY",
+                "title": "Neurodiversity (coming soon)"
+            },
+            {
+                "payload": "RACISM",
+                "title": "All About Racism"
+            },
+            {
+                "payload": "SOCIAL_MOBILITY",
+                "title": "Social Mobility & Class (coming soon)"
+            },
+            {
+                "payload": "MONEY_PAY",
+                "title": "Money & Pay"
+            },
+            {
+                "payload": "GENDER_HARASSMENT",
+                "title": "Gender Based Harassment"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option",
+        "updateSession": {
+            "isAnonymous": true
+        }
+    },
+    "FALLBACK": {
+        "text": "I'm not sure how to respond to that. Please choose an option.",
+        "buttons": [
+            {
+                "payload": "DISCRIMINATION",
+                "title": "Discrimination"
+            },
+            {
+                "payload": "INTERSECTIONALITY",
+                "title": "Intersectionality (coming soon)"
+            },
+            {
+                "payload": "NEURODIVERSITY",
+                "title": "Neurodiversity (coming soon)"
+            },
+            {
+                "payload": "RACISM",
+                "title": "All About Racism"
+            },
+            {
+                "payload": "SOCIAL_MOBILITY",
+                "title": "Social Mobility & Class (coming soon)"
+            },
+            {
+                "payload": "MONEY_PAY",
+                "title": "Money & Pay"
+            },
+            {
+                "payload": "GENDER_HARASSMENT",
+                "title": "Gender Based Harassment"
+            }
+        ],
+        "showInput": false,
+        "inputPrompt": "Select an option"
+    },
+    "RESTART": [
+        {
+            "text": "Hello, welcome to Brownstone EDI Guru."
+        },
+        {
+            "text": "We are here to advise and support you to ensure equity, diversity, and inclusion (EDI) policies work for you."
+        },
+        {
+            "text": "Can you tell us your name and email id? (All our conversations are confidential and are not shared with any third party)",
+            "buttons": [
+                {
+                    "payload": "NAME_EMAIL_CONTACT",
+                    "title": "Share Name, Email & Contact"
+                },
+                {
+                    "payload": "ANONYMOUS",
+                    "title": "Prefers anonymous"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": ""
+        }
+    ],
+    "MAIN_MENU": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "DISCRIMINATION",
+                    "title": "Discrimination"
+                },
+                {
+                    "payload": "INTERSECTIONALITY",
+                    "title": "Intersectionality (coming soon)"
+                },
+                {
+                    "payload": "NEURODIVERSITY",
+                    "title": "Neurodiversity (coming soon)"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "All About Racism"
+                },
+                {
+                    "payload": "SOCIAL_MOBILITY",
+                    "title": "Social Mobility & Class (coming soon)"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Money & Pay"
+                },
+                {
+                    "payload": "GENDER_HARASSMENT",
+                    "title": "Gender Based Harassment"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DISCRIMINATION": [
+        {
+            "text": "Subscribe to Brownstone EDI Guru paid version to get started <a href='https://buy.stripe.com/6oEdUQ1uFd1U9nW8ww' target='_blank' style='display: block; width: 100%; background-color: #026c6f; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 14px; text-align: left; box-sizing: border-box; margin: 8px 0; transition: background-color 0.3s ease, transform 0.2s ease;' onmouseover='this.style.backgroundColor=\"#038486\"; this.style.transform=\"scale(1.05)\"' onmouseout='this.style.backgroundColor=\"#026c6f\"; this.style.transform=\"scale(1)\"'>Subscribe Now</a>",
+            "buttons": [
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RACISM": [
+        {
+            "text": "Subscribe to Brownstone EDI Guru paid version to get started <a href='https://buy.stripe.com/6oEdUQ1uFd1U9nW8ww' target='_blank' style='display: block; width: 100%; background-color: #026c6f; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 14px; text-align: left; box-sizing: border-box; margin: 8px 0; transition: background-color 0.3s ease, transform 0.2s ease;' onmouseover='this.style.backgroundColor=\"#038486\"; this.style.transform=\"scale(1.05)\"' onmouseout='this.style.backgroundColor=\"#026c6f\"; this.style.transform=\"scale(1)\"'>Subscribe Now</a>",
+            "buttons": [
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "GENDER_HARASSMENT": [
+        {
+            "text": "Subscribe to Brownstone EDI Guru paid version to get started <a href='https://buy.stripe.com/6oEdUQ1uFd1U9nW8ww' target='_blank' style='display: block; width: 100%; background-color: #026c6f; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 14px; text-align: left; box-sizing: border-box; margin: 8px 0; transition: background-color 0.3s ease, transform 0.2s ease;' onmouseover='this.style.backgroundColor=\"#038486\"; this.style.transform=\"scale(1.05)\"' onmouseout='this.style.backgroundColor=\"#026c6f\"; this.style.transform=\"scale(1)\"'>Subscribe Now</a>",
+            "buttons": [
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "INTERSECTIONALITY": [
+        {
+            "text": "This option is coming soon, meanwhile you can explore below information",
+            "buttons": [
+                {
+                    "payload": "DISCRIMINATION",
+                    "title": "Discrimination"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Racism"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Money & Pay"
+                },
+                {
+                    "payload": "GENDER_HARASSMENT",
+                    "title": "Gender Based Harassment"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "NEURODIVERSITY": [
+        {
+            "text": "This option is coming soon, meanwhile you can explore below information",
+            "buttons": [
+                {
+                    "payload": "DISCRIMINATION",
+                    "title": "Discrimination"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Racism"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Money & Pay"
+                },
+                {
+                    "payload": "GENDER_HARASSMENT",
+                    "title": "Gender Based Harassment"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SOCIAL_MOBILITY": [
+        {
+            "text": "This option is coming soon, meanwhile you can explore below information",
+            "buttons": [
+                {
+                    "payload": "DISCRIMINATION",
+                    "title": "Discrimination"
+                },
+                {
+                    "payload": "RACISM",
+                    "title": "Racism"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Money & Pay"
+                },
+                {
+                    "payload": "GENDER_HARASSMENT",
+                    "title": "Gender Based Harassment"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "CONNECT_GURU": [
+        {
+            "text": "<a href='https://calendly.com/edigurus-brownstone/30min' target='_blank' style='display: block; width: 100%; background-color: #026c6f; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 14px; text-align: left; box-sizing: border-box; margin: 8px 0; transition: background-color 0.3s ease, transform 0.2s ease;' onmouseover='this.style.backgroundColor=\"#038486\"; this.style.transform=\"scale(1.05)\"' onmouseout='this.style.backgroundColor=\"#026c6f\"; this.style.transform=\"scale(1)\"'>Schedule Meeting</a>",
+            "buttons": [
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Main menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MONEY_PAY": [
+        {
+            "text": "Understanding your pay is crucial for managing your finances and ensuring you're compensated fairly."
+        },
+        {
+            "text": "Here are the key aspects UK employees should be aware of:",
+            "buttons": [
+                {
+                    "payload": "MINIMUM_WAGE",
+                    "title": "Minimum Wage"
+                },
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Payslips"
+                },
+                {
+                    "payload": "ETHNICITY_PAY_GAP",
+                    "title": "Ethnicity Pay Gap Reporting"
+                },
+                {
+                    "payload": "MAIN_MENU",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MINIMUM_WAGE": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "NMW_NLW_RATES",
+                    "title": "What are the National Minimum Wage (NMW) National Living Wage (NLW)?"
+                },
+                {
+                    "payload": "WHO_CHECKS_RATES",
+                    "title": "Who checks these rates?"
+                },
+                {
+                    "payload": "WHAT_IF_NO_RATES",
+                    "title": "What can I do if I don't get these rates?"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "NMW_NLW_RATES": [
+        {
+            "text": "Age 21 or over (National Living Wage) - £11.44"
+        },
+        {
+            "text": "Age 18 to 20 - £8.60"
+        },
+        {
+            "text": "Under 18 - £6.40"
+        },
+        {
+            "text": "Apprentice - £6.40",
+            "buttons": [
+                {
+                    "payload": "MINIMUM_WAGE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "WHO_CHECKS_RATES": [
+        {
+            "text": "The Low Pay Commission",
+            "buttons": [
+                {
+                    "payload": "MINIMUM_WAGE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "WHAT_IF_NO_RATES": [
+        {
+            "text": "It's against the law for an employer to pay less than the National Minimum Wage or National Living Wage."
+        },
+        {
+            "text": "They also must keep accurate pay records and make them available when requested."
+        },
+        {
+            "text": "If an employer has not been paying the correct minimum wage, they should resolve the problem as soon as possible."
+        },
+        {
+            "text": "The employer must also resolve any backdated non-payment of minimum wage. This is even if the employee or worker no longer works for them.",
+            "buttons": [
+                {
+                    "payload": "RESOLVE_INFORMALLY",
+                    "title": "Resolve the issue informally"
+                },
+                {
+                    "payload": "FORMAL_PROCESSES",
+                    "title": "Formal processes for non-payment of minimum wage"
+                },
+                {
+                    "payload": "MINIMUM_WAGE",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "RESOLVE_INFORMALLY": [
+        {
+            "text": "It can resolve the issue quickly if the employer and employee or worker are able to talk informally about it.",
+            "buttons": [
+                {
+                    "payload": "WHAT_IF_NO_RATES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "FORMAL_PROCESSES": [
+        {
+            "text": "If minimum wage is not being paid, the employee or worker can raise the problem formally."
+        },
+        {
+            "text": "This could be by raising a grievance – making a formal complaint to the employer. This can help get the issue resolved without needing legal action."
+        },
+        {
+            "text": "Or they can do one of the following:"
+        },
+        {
+            "text": "1. Complain to HM Revenue and Customs (HMRC)"
+        },
+        {
+            "text": "2. Make a claim to an Employment Tribunal",
+            "buttons": [
+                {
+                    "payload": "WHAT_IF_NO_RATES",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PAYSLIPS": [
+        {
+            "text": "",
+            "buttons": [
+                {
+                    "payload": "SHOULD_GET_PAYSLIP",
+                    "title": "Should I always get a payslip?"
+                },
+                {
+                    "payload": "WHAT_ON_PAYSLIP",
+                    "title": "What should be on my payslip?"
+                },
+                {
+                    "payload": "DEDUCTIONS",
+                    "title": "What can my employer deduct from my pay?"
+                },
+                {
+                    "payload": "UNLAWFUL_DEDUCTION",
+                    "title": "What can I do if I have an unlawful deduction?"
+                },
+                {
+                    "payload": "TAX_NI",
+                    "title": "What are tax and national insurance?"
+                },
+                {
+                    "payload": "OVERTIME",
+                    "title": "Am I entitled to overtime or additonal pay?"
+                },
+                {
+                    "payload": "SICK_PAY",
+                    "title": "Am I entitled to Sick Pay and Other Leave?"
+                },
+                {
+                    "payload": "PAY_INCREASES",
+                    "title": "Am I entitled to Pay Increases and Reviews?"
+                },
+                {
+                    "payload": "EQUAL_PAY",
+                    "title": "Am entitled to equal pay?"
+                },
+                {
+                    "payload": "EMPLOYMENT_CONTRACT",
+                    "title": "What should be in my employment contract?"
+                },
+                {
+                    "payload": "MORE_ADVICE",
+                    "title": "More Advice"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SHOULD_GET_PAYSLIP": [
+        {
+            "text": "Employers are legally required to provide itemised payslips on or before payday.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "WHAT_ON_PAYSLIP": [
+        {
+            "text": "Gross pay Deductions (e.g., tax, National Insurance) Net pay Any variable or fixed deductions",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "DEDUCTIONS": [
+        {
+            "text": "Employers can only make deductions that are legally required (e.g., tax, National Insurance) or agreed upon in writing. Unauthorised deductions are unlawful.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "UNLAWFUL_DEDUCTION": [
+        {
+            "text": "If an employee disagrees with a deduction, they should first try to raise it with their employer. If they've not been able to resolve the issue with their employer, they might be able to make a claim to an employment tribunal."
+        },
+        {
+            "text": "For example, they might be able to make a claim for:"
+        },
+        {
+            "text": "- unlawful deduction from wages"
+        },
+        {
+            "text": "- breach of contract, if they're no longer employed",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "TAX_NI": [
+        {
+            "text": "Income tax and National Insurance contributions are deducted through the Pay As You Earn (PAYE) system. Tax codes determine the amount of tax deducted; ensure your tax code is correct to avoid overpaying or underpaying tax.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "OVERTIME": [
+        {
+            "text": "Entitlement to overtime pay depends on your employment contract. Overtime rates should be specified in your contract or agreed upon with your employe",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "SICK_PAY": [
+        {
+            "text": "Statutory Sick Pay (SSP) is available if you're off work due to illness for at least four consecutive days. Employers may offer enhanced sick pay; check your employment contract for details. New legislation proposes enhanced sick pay and maternity benefits, with changes expected to come into force in 2026.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "EMPLOYMENT_CONTRACT": [
+        {
+            "text": "Your contract should outline your pay, working hours, and other terms of employment. Ensure you receive and understand your contract; it serves as a legal agreement between you and your employer.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "PAY_INCREASES": [
+        {
+            "text": "Pay reviews are typically conducted annually, but this depends on your employer's policies. Any agreed-upon pay increases should be documented in writing.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "EQUAL_PAY": [
+        {
+            "text": "It's unlawful to pay employees differently based on gender for the same work. If you believe you're not receiving equal pay, you can raise a grievance with your employer or seek advice from employment rights organisations.",
+            "buttons": [
+                {
+                    "payload": "PAYSLIPS",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "ETHNICITY_PAY_GAP": [
+        {
+            "text": "Labour has announced a draft Equality (Race and Disability) Bill confirming their intention to introduce a mandatory requirement for employers of 250+ employees to publish their disability and ethnicity pay gaps.",
+            "buttons": [
+                {
+                    "payload": "WHAT_IS_EPG",
+                    "title": "What is the ethnicity pay gap?"
+                },
+                {
+                    "payload": "EPG_VARIATION",
+                    "title": "How does it vary across ethnic groups?"
+                },
+                {
+                    "payload": "REGIONAL_VARIATION",
+                    "title": "Does it vary by region?"
+                },
+                {
+                    "payload": "AVERAGE_EARNINGS",
+                    "title": "Do these figure use average earnings?"
+                },
+                {
+                    "payload": "MONEY_PAY",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "WHAT_IS_EPG": [
+        {
+            "text": "The ethnicity pay gap in the UK refers to the disparity in average earnings between employees from different ethnic backgrounds. According to the Office for National Statistics (ONS), in 2022, Black, African, Caribbean, or Black British employees had a median gross hourly pay of £13.53, compared to £14.35 for White employees. This indicates that Black employees earned approximately 5.7% less than their White counterparts.",
+            "buttons": [
+                {
+                    "payload": "ETHNICITY_PAY_GAP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "EPG_VARIATION": [
+        {
+            "text": "The pay gap varies across different ethnic groups. For instance, UK-born Asian or Asian British employees earned on average 11.9% more than UK-born White employees; however, after adjusting for factors such as occupation and education, this advantage reversed to a 1.9% pay gap in favor of White employees.",
+            "buttons": [
+                {
+                    "payload": "ETHNICITY_PAY_GAP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "REGIONAL_VARIATION": [
+        {
+            "text": "Geographical differences also play a role. In 2019, London exhibited the largest ethnicity pay gap at 23.8%, while Wales had the smallest at 1.4%.",
+            "buttons": [
+                {
+                    "payload": "ETHNICITY_PAY_GAP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "AVERAGE_EARNINGS": [
+        {
+            "text": "It's important to note that these figures represent average earnings and do not account for individual roles or qualifications. The UK government has been considering mandatory ethnicity pay gap reporting for large employers to address these disparities, with some companies already voluntarily publishing their data.",
+            "buttons": [
+                {
+                    "payload": "ETHNICITY_PAY_GAP",
+                    "title": "Back to Previous Menu"
+                },
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ],
+    "MORE_ADVICE": [
+        {
+            "text": "Connect with a Guru for more advice. <a href='https://calendly.com/edigurus-brownstone/30min' target='_blank' style='display: block; width: 100%; background-color: #026c6f; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 14px; text-align: left; box-sizing: border-box; margin: 8px 0; transition: background-color 0.3s ease, transform 0.2s ease;' onmouseover='this.style.backgroundColor=\"#038486\"; this.style.transform=\"scale(1.05)\"' onmouseout='this.style.backgroundColor=\"#026c6f\"; this.style.transform=\"scale(1)\"'>Schedule Meeting</a>",
+            "buttons": [
+                {
+                    "payload": "RESTART",
+                    "title": "Restart Conversation"
+                }
+            ],
+            "showInput": false,
+            "inputPrompt": "Select an option"
+        }
+    ]
+}
